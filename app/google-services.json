@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "301821880587",
+    "project_id": "sign-11",
+    "storage_bucket": "sign-11.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:301821880587:android:72204179a08dc9993c9a0e",
+        "android_client_info": {
+          "package_name": "com.itproger.sign"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "301821880587-968qdv9rcsurotuf76emc05v8ghe27jv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnP5sPE_NdEUeVl5nGoqT0ahnZ7gN0LYM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "301821880587-968qdv9rcsurotuf76emc05v8ghe27jv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
