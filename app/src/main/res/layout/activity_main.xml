@@ -6,11 +6,34 @@
     android:layout_height="match_parent"
     android:background="@color/color_accent"
     tools:context=".MainActivity">
+    
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/app_bar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
 
-    <include
-        android:id="@+id/main_page_toolbar"
-        layout="@layout/app_bar_layout" >
+        <include
+            android:id="@+id/main_page_toolbar"
+            layout="@layout/app_bar_layout" >
+        </include>
 
-    </include>
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/main_tabs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/color_primary"
+            app:tabTextColor="@color/no_selected_text"
+            app:tabSelectedTextColor="@color/color_accent"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+        </com.google.android.material.tabs.TabLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+    
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/main_tabs_pager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/app_bar_layout">
+
+    </androidx.viewpager.widget.ViewPager>
 
 </RelativeLayout>

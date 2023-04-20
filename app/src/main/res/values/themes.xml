@@ -2,7 +2,7 @@
     <!-- Base application theme. -->
     <style name="Theme.Sign" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/color_primary</item>
+        <item name="colorPrimary">@color/color_accent</item>
         <item name="colorPrimaryVariant">@color/color_primary_dark</item>
         <item name="colorOnPrimary">@color/white</item>
         <!-- Secondary brand color. -->
