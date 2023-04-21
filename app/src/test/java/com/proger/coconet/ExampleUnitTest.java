@@ -1,4 +1,4 @@
-package com.itproger.sign;
+package com.proger.coconet;
 
 import org.junit.Test;
 

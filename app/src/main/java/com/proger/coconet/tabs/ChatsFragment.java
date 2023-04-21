@@ -1,4 +1,4 @@
-package com.itproger.sign.tabs;
+package com.proger.coconet.tabs;
 
 import android.os.Bundle;
 
@@ -8,7 +8,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.itproger.sign.R;
+import com.proger.coconet.R;
 
 /**
  * A simple {@link Fragment} subclass.

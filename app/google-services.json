@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "301821880587",
-    "project_id": "sign-11",
-    "storage_bucket": "sign-11.appspot.com"
+    "project_number": "322216375943",
+    "project_id": "coconet-f5f88",
+    "storage_bucket": "coconet-f5f88.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:301821880587:android:72204179a08dc9993c9a0e",
+        "mobilesdk_app_id": "1:322216375943:android:ca724dd9ae1209aeb9aa22",
         "android_client_info": {
-          "package_name": "com.itproger.sign"
+          "package_name": "com.proger.coconet"
         }
       },
       "oauth_client": [
         {
-          "client_id": "301821880587-968qdv9rcsurotuf76emc05v8ghe27jv.apps.googleusercontent.com",
+          "client_id": "322216375943-8u0a9o3m08d5g3rljjnd2mi65kubr7aj.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAnP5sPE_NdEUeVl5nGoqT0ahnZ7gN0LYM"
+          "current_key": "AIzaSyDoY1KsocQXadR2nPXVG2qlkCpCrfY_uZ8"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "301821880587-968qdv9rcsurotuf76emc05v8ghe27jv.apps.googleusercontent.com",
+              "client_id": "322216375943-8u0a9o3m08d5g3rljjnd2mi65kubr7aj.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

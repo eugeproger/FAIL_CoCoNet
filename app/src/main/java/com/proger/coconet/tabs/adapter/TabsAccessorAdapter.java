@@ -1,4 +1,4 @@
-package com.itproger.sign.tabs.adapter;
+package com.proger.coconet.tabs.adapter;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -6,9 +6,9 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
 
-import com.itproger.sign.tabs.ChatsFragment;
-import com.itproger.sign.tabs.ContactsFragment;
-import com.itproger.sign.tabs.GroupsFragment;
+import com.proger.coconet.tabs.ChatsFragment;
+import com.proger.coconet.tabs.ContactsFragment;
+import com.proger.coconet.tabs.GroupsFragment;
 
 public class TabsAccessorAdapter extends FragmentPagerAdapter {
 

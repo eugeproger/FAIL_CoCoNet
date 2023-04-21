@@ -1,4 +1,4 @@
-package com.itproger.sign;
+package com.proger.coconet;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
@@ -9,7 +9,7 @@ import android.os.Bundle;
 
 import com.google.android.material.tabs.TabLayout;
 import com.google.firebase.auth.FirebaseUser;
-import com.itproger.sign.tabs.adapter.TabsAccessorAdapter;
+import com.proger.coconet.tabs.adapter.TabsAccessorAdapter;
 
 public class AppActivity extends AppCompatActivity {
 
@@ -25,7 +25,7 @@ public class AppActivity extends AppCompatActivity {
 
         toolbar = findViewById(R.id.main_page_toolbar);
         setSupportActionBar(toolbar);
-        getSupportActionBar().setTitle("Sing");
+        getSupportActionBar().setTitle("CoCoNet");
 
         viewPager = findViewById(R.id.main_tabs_pager);
         tabsAccessorAdapter = new TabsAccessorAdapter(getSupportFragmentManager());
