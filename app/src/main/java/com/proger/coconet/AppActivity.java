@@ -8,6 +8,7 @@ import android.content.Intent;
 import android.os.Bundle;
 
 import com.google.android.material.tabs.TabLayout;
+import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.proger.coconet.tabs.adapter.TabsAccessorAdapter;
 
@@ -18,6 +19,7 @@ public class AppActivity extends AppCompatActivity {
     private TabLayout tabLayout;
     private TabsAccessorAdapter tabsAccessorAdapter;
     private FirebaseUser currentUser;
+    private FirebaseAuth firebaseAuth;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -33,6 +35,9 @@ public class AppActivity extends AppCompatActivity {
 
         tabLayout = findViewById(R.id.main_tabs);
         tabLayout.setupWithViewPager(viewPager);
+
+        firebaseAuth = FirebaseAuth.getInstance();
+        currentUser = firebaseAuth.getCurrentUser();
     }
 
     @Override
