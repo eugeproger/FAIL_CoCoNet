@@ -56,7 +56,7 @@ public class SignupActivity extends AppCompatActivity {
             Utility.showShortToast(this,"Please, enter your password.");
         } else {
             progressDialog.setTitle("Creating account");
-            progressDialog.setTitle("Your account are creating...");
+            progressDialog.setMessage("Your account are creating...");
             progressDialog.setCanceledOnTouchOutside(true);
             progressDialog.show();
             firebaseAuth.createUserWithEmailAndPassword(email,password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
