@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".RegisterActivity">
+    tools:context=".SignupActivity">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -25,6 +25,7 @@
                 android:layout_alignParentTop="true"
                 android:scaleType="fitCenter"
                 android:layout_marginVertical="48dp"
+                android:contentDescription="@string/login_image"
                 app:srcCompat="@drawable/log_in_picture" />
 
             <TextView
@@ -45,27 +46,27 @@
                 android:textColor="?attr/colorOnSecondary"
                 android:textStyle="bold"
                 android:textSize="32sp"
-                android:text="Welcome back!" />
+                android:text="@string/welcome_back" />
 
             <EditText
-                android:id="@+id/login_email"
+                android:id="@+id/user_login_email_field"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_alignParentStart="true"
                 android:layout_below="@id/welcome_textView"
-                android:hint="Email"
+                android:hint="@string/email"
                 android:inputType="textEmailAddress"
                 android:padding="10dp"
                 android:drawableStart="@drawable/email"
                 android:layout_marginTop="24dp" />
 
             <EditText
-                android:id="@+id/login_password"
+                android:id="@+id/user_login_password_field"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_alignParentStart="true"
-                android:layout_below="@id/login_email"
-                android:hint="Password"
+                android:layout_below="@id/user_login_email_field"
+                android:hint="@string/password"
                 android:inputType="textPassword"
                 android:padding="10dp"
                 android:drawableStart="@drawable/password"
@@ -75,15 +76,15 @@
                 android:id="@+id/forgotten_password_linearLayout"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_below="@id/login_password"
+                android:layout_below="@id/user_login_password_field"
                 android:layout_marginTop="8dp"
-                android:layout_alignParentRight="true">
+                android:layout_alignParentEnd="true">
 
                 <TextView
-                    android:id="@+id/forget_password_link"
+                    android:id="@+id/create_new_password_link"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Forget password?" />
+                    android:text="@string/forgotten_password" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -93,7 +94,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Click!"
+                    android:text="@string/click"
                     android:textStyle="bold"
                     android:textColor="?attr/colorSecondary"/>
 
@@ -101,13 +102,13 @@
 
 
             <Button
-                android:id="@+id/login_button"
+                android:id="@+id/log_in_button"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/forgotten_password_linearLayout"
                 android:padding="10dp"
                 android:layout_marginTop="24dp"
-                android:text="Log in"
+                android:text="@string/log_in"
                 app:backgroundTint="@color/accent_blue"
                 android:textSize="18sp"/>
 
@@ -116,9 +117,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_alignParentStart="true"
-                android:layout_below="@+id/login_button"
+                android:layout_below="@+id/log_in_button"
                 android:layout_marginTop="8dp"
-                android:text="or"
+                android:text="@string/or"
                 android:layout_centerHorizontal="true"
                 android:textAlignment="center"
                 android:textSize="16sp"
@@ -131,7 +132,7 @@
                 android:layout_below="@+id/or_text_view"
                 android:padding="10dp"
                 android:layout_marginTop="8dp"
-                android:text="Log in with phone number"
+                android:text="@string/log_in_with_phone_number"
                 app:backgroundTint="@color/accent_blue"
                 android:textSize="18sp" />
 
@@ -146,7 +147,7 @@
                     android:id="@+id/no_have_account_textView"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Don't have an account yet?"
+                    android:text="@string/account_no_exist"
                     android:textSize="16sp"/>
 
                 <TextView
@@ -156,23 +157,14 @@
                     android:textSize="16sp"/>
 
                 <TextView
-                    android:id="@+id/create_account_link"
+                    android:id="@+id/sign_up_link"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Create account."
+                    android:text="@string/sign_up"
                     android:textStyle="bold"
                     android:textColor="?attr/colorSecondary"
                     android:textSize="16sp"/>
-
-
             </LinearLayout>
-
-
-
-
-
-
-
         </RelativeLayout>
     </ScrollView>
 </RelativeLayout>
