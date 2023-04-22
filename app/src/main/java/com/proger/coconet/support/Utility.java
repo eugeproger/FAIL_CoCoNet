@@ -1,4 +1,4 @@
-package com.proger.coconet;
+package com.proger.coconet.support;
 
 import android.content.Context;
 import android.widget.Toast;
